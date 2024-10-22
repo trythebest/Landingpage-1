@@ -66,8 +66,8 @@ ul{
 
 .section{
     display: flex;
-    justify-content: center;
-    padding: 40px 0 40px 0;
+    /* justify-content: center; */
+    padding: 40px 20px 40px 20px;
     /* height: 500px; */
     /* width: 100%; */
 }
