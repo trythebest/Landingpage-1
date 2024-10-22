@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="index.css">
+    <script>
+    tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "orange": "#FA7436",
+              "ash":"#666666",
+              "gray":"#F7F8FC"
+            },
+          },
+          
+          
+          },
+        }
+      </script>
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <div  style="display: flex; align-items: center; gap: 2px;">
+                    <h3>Trabook </h3>
+                    <img src="./assets/strom.svg" alt="image" class="max-h-4">
+
+                </div>
+                <ul>
+                    <li >Home</li>
+                    <li>About</li>
+                    <li>Destination</li>
+                    <li>Tour</li>
+                    <li>Blog</li>
+                </ul>
+                <div class="rt-btn">
+                  <button>Login</button>                
+                  <button class="btn">Signup</button>
+                </div>
+                
+            </nav>
+            <div class="section">
+                <div class="left">
+                    <h1 style="font-size:30px; font-weight: 500;">Get started your exciting <span class="text-orange">journey</span> with us.</h1>
+                    <p >A Team of experienced tourism professionals will provide you with the best advice and tips for your
+                        desire place.</p>
+                    <button class="dis-btn">Discover Now</button>
+                </div>
+                <div class="right">
+                    <img src="./assets/total.svg" alt="flight" width="400px">
+                    <!-- <img src="./assets/Group 1000003524.png" alt="image" width="500px" height="530px" class="h-rht"> -->
+                </div>
+            </div>
+                <div class="h-cards " >
+                    <div >
+                        <div style="display: flex;">
+                            <h3>Location </h3>
+                           <img src="./assets/Vector 4855.svg" alt="img">  
+                        </div>
+                            <p style="font-size: x-small;" >Where are you going</p>
+                    </div>
+                    <div>
+                        <div style="display: flex;">
+                            <h3>Date </h3>
+                            <img src="./assets/Vector 4855.svg" alt="img">
+                        </div>
+                        <p style="font-size: x-small;">When you will go</p>
+                    </div>
+                    <div>
+                        <div style="display: flex;">
+                            <h3>Guest </h3>
+                            <img src="./assets/Vector 4855.svg" alt="img"> 
+                        </div>
+                        <p style="font-size: x-small;">Number of Guest</p>
+                    </div>
+                    <div class="h-details">
+                        <button class="btn">Explore Now</button>
+                    </div>
+                </div>
+                
+    
+    
+        </header>
+        <div class="second">
+                <div class="title" >
+                    <h1 >Things you need <span class="text-orange">to do</span></h1>
+                    <p  >
+                        We ensure that you’ll embark on a perfectly planned, 
+                        safe vacation at a price you can afford.
+                    </p>
+                </div>
+            <div class="sec-cards">
+                <div class="card">
+                    <img src="./assets/touchbox.png" alt="image">
+                    <h3 class="font-bold">Sign Up</h3>
+                    <p class="">Completes all the work associated with planning and processing</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/purse.png" alt="image">
+                    <h3 class="font-bold">Worth of Money</h3>
+                    <p class="text-xs">After successful access then book from exclusive deals & pricing</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/map2.png" alt="image">
+                    <h3 class="font-bold">Exiting Travel</h3>
+                    <p class="text-xs">Start and explore a wide range of exciting travel experience.</p>
+                </div>
+    
+            </div>
+                
+        </div>
+        <div class="section2" style="background-color:#FEFCFB;">
+            <nav>
+                <div class="title">
+                    <h1>Exclusive <span class="span">deals & discounts</span></h1>
+                    <p>Discover our fantastic early booking discounts & start planning your journey.</p>
+                </div>
+            </nav>
+            <div class="sec-cards">
+                <div class="card2">
+                    <img src="./assets/Image1.png" alt="image">
+                    <div class="c-details">
+                        <h3>Madrid</h3>
+                        <p style="display: inline-block;"><img src="./assets/star 2.png" alt="image"> 4.8</p>
+                    </div>
+                    <div class="c-details">
+                        <p><img src="./assets/smallmap.svg">Spain</p>
+                        <p>$950 $850</p>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="./assets/hover image.png" alt="image">
+                    <div class="c-details">
+                        <h3>Firenze</h3>
+                        <p><img src="./assets/star 2.png" alt="image"> 4.5</p>
+                    </div>
+                    <div class="c-details">
+                        <p> <img src="./assets/smallmap.svg">Italy</p>
+                        <p>$850 $750</p>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="./assets/image3.png" alt="image">
+                    <div class="c-details">
+                        <h3>Paris</h3>
+                        <p><img src="./assets/star 2.png" alt="image"> 4.4</p>
+                    </div>
+                    <div class="c-details">
+                        <p><img src="./assets/smallmap.svg">France</p>
+                        <p>$699 $599</p>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="./assets/Image4.png" alt="image">
+                    <div class="c-details">
+                        <h3>London</h3>
+                        <p><img src="./assets/star 2.png" alt="image"> 4.8</p>
+                    </div>
+                    <div class="c-details">
+                        <p><img src="./assets/smallmap.svg">UK</p>
+                        <p>$850 $850</p>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-img">
+                <img src="./assets/Btn-1.png">
+                <img src="./assets/Btn-2.png">
+            </div>
+        </div>
+        <div class="section2">
+            <nav>
+                <div class="title">
+                    <h1>Best <span class="span">vacation plan</span></h1>
+                    <p>Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers!</p>
+                </div>
+                <img src="./assets/cocunut.png" alt="image" class="c-image">
+            </nav>
+            <div class="trip-cards">
+                <div class="t-card">
+                    <img src="./assets/Image7.png" alt="image">
+                    <div class="tc-details">
+                        <h3>Rome,Italy</h3>
+                        <p> $5,42k</p>
+                    </div>
+                    <div class="tc-details">
+                        <p> <img src="./assets/Navigation.png">10 Days Trip</p>
+                        <p><img src="./assets/star 2.png" alt="image"> 4.8</p>
+                    </div>
+                </div>
+                <div class="t-card">
+                    <img src="./assets/Image6.png" alt="image">
+                    <div class="tc-details">
+                        <h3>London,UK</h3>
+                        <p> $2,42K</p>
+                    </div>
+                    <div class="tc-details">
+                        <p><img src="./assets/Navigation.png">07 Days Trip</p>
+                        <p><img src="./assets/star 2.png" alt="image">4.7</p>
+                    </div>
+                </div>
+                <div class="t-card">
+                    <img src="./assets/Image7.png" alt="image">
+                    <div class="tc-details">
+                        <h3>Osaka,Japan</h3>
+                        <p> 4.8</p>
+                    </div>
+                    <div class="tc-details">
+                        <p><img src="./assets/Navigation.png">10 Days Trip</p>
+                        <p><img src="./assets/star 2.png" alt="image">4.8</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <div class="section2 aboutus">
+            <div class="sec-cards ">
+                <div class="card" style="background-color: #F7F8FC;">
+                    <h1>
+                        What people say <span class="span">about us.</span>
+                    </h1>
+                    <p style="font-size: x-small;">
+                        Our Clients send us bunch of smilies with our services and we love them.
+                    </p>
+                    <div style="gap: 20px;">
+                        <img src="./assets/Btn-1.png" alt="image">
+                        <img src="./assets/Btn-2.png" alt="image">
+                    </div>
+                    
+                </div>
+                <div class="card" style="background-color: #F7F8FC;">
+                    <div style="background-color: #ffff;padding: 10px; border-radius: 10px;">
+                        <img src="./assets/laugh.png" alt="image">
+
+                        <p>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                        <p>Mike taylor</p>
+                        Lahore, Pakistan
+                    </div>
+                </div>
+                <img src="./assets/l-fight.png" alt="image">
+            </div>
+        </div>
+        <div class="section2 " style="background-color: #FEFCFB;">
+            <nav>
+                <div class="title">
+                    <h1>Get update with <span class="span">latest blog</span> </h1>
+                </div>
+            </nav>
+            <div class="sec-cards">
+                <div class="l-card">
+                    <img src="./assets/final1.png" alt="image">
+                    <p>The Amazing Difference a Year of Travelling .</p>
+                    <span>July 27, 2021</span>
+                </div>
+                <div class="l-card">
+                    <img src="./assets/final2.png" alt="image">
+                    <p>Travel far enough, you meet yourself.</p>
+                    <span>July 27, 2021</span>
+                </div>
+                <div class="l-card">
+                    <img src="./assets/final3.png" alt="image">
+                    <p>How to Save Money While Visiting Africa .</p>
+                    <span>July 27, 2021</span>
+                </div>
+                <div class="l-card">
+                    <img src="./assets/final4.png" alt="image">
+                    <p>Reflections on 5 Months of Travel: Time to Hang</p>
+                    <span>July 27, 2021</span>
+                </div>
+            </div>
+                            
+            <div style="display: flex; justify-content: center; padding-top: 40px;">
+                <img src="./assets/Slider.png">
+
+            </div>
+
+        </div>
+        <div  style="background-color: #FA7436;  margin-left: 20%; margin-right: 20%; padding: 20px; border-radius: 10px;">
+            
+                <div class=" centre">
+                    <h1 style="color: white;">Subscribe and get exclusive <br/> deals & offer</h1>
+                    <div class="inputadjust">
+                        <img src="./assets/mail.png" alt="image">
+                        <input type="text" placeholder="Enter your Mail">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+                
+        </div>
+        <footer>
+            <div class="f-center">
+                <div class="f-left">
+                    <p style="font-weight: 500;">Trabook <img src="./assets/textbook.png" alt="image" ></p>
+                    <p style="font-size: x-small;">Book your trip in minute, get full Control for much longer.</p>
+                    <img src="./assets/facebook.png" alt="facebook" class="f-left-img">
+                    <img src="./assets/insta.png" alt="Insta" class="f-left-img">
+                    <img src="./assets/twitter.png" alt="Twitter" class="f-left-img">
+                </div>
+                <div class="f-right">
+                    <!-- <div class=""> -->
+                        <ul>
+                            <span class="f-t">Company</span>
+                            <li>About</li>
+                            <li>carrers</li>
+                            <li>logistic</li>
+                            <li>privacy & policy</li>
+                        </ul>
+                        <ul>
+                            <span class="f-t">Contact</span>
+                            <li>Help/FAQ</li>
+                            <li>Press</li>
+                            <li>Affilates</li>
+                        </ul>
+                        <ul> 
+                            <span class="f-t">More</span>
+                            <li>Press Center</li>
+                            <li>Our Blog</li>
+                            <li>Low Fare Tips</li>
+                        </ul>
+        
+                    <!-- </div> -->
+                </div>
+            </div>
+           
+        </footer>
+    </div>
+   
+</body>
+
+</html>
